@@ -1,6 +1,5 @@
 
-	window.T={};
-	T.modulesConfig = {
+	window.RoutersConfig = {
 		'head'  : {
 			module:require('head'),
 			config:{
@@ -34,13 +33,13 @@
 	    	hash = hash.substr(0,len);
 	    }
 	  	var Component,config,
-	  		routeModule = T.modulesConfig[hash];
+	  		routeModule = RoutersConfig[hash];
 
 	  	if(routeModule){
 	  		Component = routeModule.module;
 	  		config    = routeModule.config;
 	  	}else{
-	  		var main = T.modulesConfig['main'];
+	  		var main = RoutersConfig['main'];
 	  		Component = main.module;
 	  		config    = main.config;
 	  	}
@@ -51,7 +50,7 @@
 	  	if(config.head){
 	  		Head = config.head;
 	  	}else{
-	  		Head = T.modulesConfig['head'].module;
+	  		Head = RoutersConfig['head'].module;
 	  	}
 
 	    return (

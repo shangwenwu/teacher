@@ -23,7 +23,7 @@
 	    	<div>
 	    		<h3>index组件效果如下：</h3>
 	    		<nav />
-	    		<div className="head">Hello {this.props.name} <div className="nav">sssss<p>ss</p>ss</div></div>
+	    		<div >Hello {this.props.name} <div className="nav">sssss<p>ss</p>ss</div></div>
 	    	</div>
 	    	)
 	  }
