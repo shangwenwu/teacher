@@ -2,26 +2,13 @@
 var activity = React.createClass({
 	render: function() {
 	    return (
-			<div className="activityModule">
-				<div>
-					<div>名称：</div>
-					<input type="text" />
-				</div>
-				<div>
-					<div>时间：</div>
-					<input type="text" />
-				</div>
-				<div>
-					<div>地点：</div>
-					<input type="text" />
-				</div>
-				<div>
-					<div>现报名人数：</div>
-					<input type="text" />
-				</div>
-				<div>
-					<button>我要报名参加</button>
-				</div>
+			<div className="activityModule u-lof4 box boxV br5 boxHCenter">
+				<p className="f18 pl20">
+					活动名称：羽毛球<br />
+					时间：2015年8月1日<br />
+					现报名人数：21人
+				</p>
+				<a className="tac f16 mt20">我要报名参加</a>
 			</div>
 		);
 	}

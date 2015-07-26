@@ -1,11 +1,11 @@
 
 
-	var head = React.createClass({
+	var Head = React.createClass({
 	  render: function() {
-	    return (<div>
+	    return (<div className="headModule">
 	    	<h1>家教老师自助平台</h1>
 	    </div>);
 	  }
 	});
 
-	module.exports = head;
+	module.exports = Head;
