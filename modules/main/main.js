@@ -1,8 +1,17 @@
-
+	
+	var Slide = require('slide');
+	var Appoint = require('appoint');
+	var Recommend = require('recommend');
+	var Activity = require('activity');
 
 	var main = React.createClass({
 	  render: function() {
-	    return <div className="head"><a href="#index/aa">Hello</a> ddddd {this.props.name} <div className="nav">sssss<p>ss</p>ss</div></div>;
+	    return (<div>
+	    	<Slide />
+	    	<Appoint />
+	    	<Recommend />
+	    	<Activity />
+    	</div>);
 	  }
 	});
 

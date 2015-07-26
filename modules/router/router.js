@@ -1,23 +1,12 @@
 
 	window.RoutersConfig = {
 		'head'  : {
-			module:require('head'),
-			config:{
-				data:['test']
-			}
+			module:require('head')
 		},
 		'main'  : {
 			module:require('main'),
 			config:{
-				title:'主网页'
-			}
-		},
-		'index/aa' : {
-			module:require('index'),
-			config:{
-				title:'test页面',
-				data:[0,1,2,3,4,5],
-				head:require('new_head')
+				title:'家教老师自助平台'
 			}
 		}
 	}

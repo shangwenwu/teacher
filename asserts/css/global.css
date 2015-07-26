@@ -1,0 +1,35 @@
+*{ padding:0; margin:0;}
+ul,li,ol{list-style:none;}
+body, button, input, select, textarea{font: 12px/1.5 tahoma,arial,"宋体";color:#666;font-family: "微软雅黑",'Microsoft Yahei','幼圆','YouYuan SimYou?',SimSun,'宋体',Helvetica,Arial,sans-serif;}
+a{color:#06c;text-decoration:none;}
+a:hover,a:active,a:focus{color:#06c;text-decoration:underline;}
+
+.hide{display:none;}
+.tac {text-align: center;}
+.tar {text-align: right;}
+
+.box{ display: flex; }
+.boxHCenter{ justify-content:center;}
+.boxHEnd{ justify-content:flex-end;}
+
+.boxVCenter{ align-items:center;}
+
+.boxCenter{ justify-content:center; align-items:center;}
+.boxVEnd{ align-items:flex-end;}
+
+.boxBetween{ justify-content:space-between;}
+
+.boxV{ flex-direction:column; }
+.boxH{ flex-direction:row;}
+
+.flex1{ flex:1;}
+.flex2{ flex:2;}
+.flex3{ flex:3;}
+.flex4{ flex:4;}
+.flex5{ flex:5;}
+
+.u-full{ flex:0 0 100%;}
+.u-lof2{ flex:0 0 50%;}
+.u-lof3{ flex:0 0 33.3333%;}
+.u-lof4{ flex:0 0 25%;}
+.u-lof5{ flex:0 0 20%;}
